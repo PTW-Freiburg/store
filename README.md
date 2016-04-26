@@ -5,7 +5,7 @@ A [RxJS](https://github.com/ReactiveX/rxjs) powered state management container h
 ## Why!?
 
 Because reactive by default is a good thing and Redux is too much tied to React!
-Plus, we wanted to have som sensible defaults, like [FSA](https://github.com/acdlite/flux-standard-action) for actions.
+Plus, we wanted to have some sensible defaults, like [FSA](https://github.com/acdlite/flux-standard-action) for actions.
 
 ## Features
 
@@ -13,7 +13,7 @@ Plus, we wanted to have som sensible defaults, like [FSA](https://github.com/acd
 - **Observable State:** The store will also expose a `state$` stream, which is just a regular `Observable`. This means you can use all the sweet Rx operators!
 - **Real State Change:** Redux will always call every listener, when an action is dispatched. Because of RxJS listener will only be notified if the state has actually changed.
 - **Partial State Update:** Sometimes you're only interested in a subset of the state tree. `select()` is a helper method, exposed by the `store` to easily select state members, much like [@ngrx/store](https://github.com/ngrx/store).
-- **Framkework Agnostic:** Use it whatever you want.
+- **Framkework Agnostic:** Use it for whatever you want.
 - **Intellisense:** Thanks to TypeScript.
 
 ## Install
