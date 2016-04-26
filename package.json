@@ -1,6 +1,6 @@
 {
   "name": "ptw-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redux-like store implementation with streams (RxJS)",
   "main": "./build/index.js",
   "scripts": {
@@ -21,7 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+github.com:PTW-Freiburg/store.git"
+  },
+  "homepage": "https://github.com/PTW-Freiburg/store#readme",
+  "bugs": {
+    "url": "https://github.com/PTW-Freiburg/store/issues"
   },
   "keywords": [
     "rxjs",
