@@ -19,8 +19,7 @@ Plus, we wanted to have som sensible defaults, like [FSA](https://github.com/acd
 ## Install
 
 ```
-$ npm install rxjs --save
-$ npm install @ptw/store --save
+$ npm install rxjs ptw-store --save
 ```
 
 ## Usage

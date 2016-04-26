@@ -1,6 +1,6 @@
 {
-  "name": "@ptw/store",
-  "version": "1.0.0",
+  "name": "ptw-store",
+  "version": "1.0.1",
   "description": "Redux-like store implementation with streams (RxJS)",
   "main": "./build/index.js",
   "scripts": {
