@@ -1,0 +1,56 @@
+{
+  "name": "@ptw/store",
+  "version": "1.0.0",
+  "description": "Redux-like store implementation with streams (RxJS)",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build_spec": "tsc --project ./spec --pretty --sourceMap",
+    "build_test": "npm-run-all lint_spec clean_test build_spec test_jasmine",
+    "clean": "npm-run-all clean_build clean_test",
+    "clean_build": "rimraf ./build",
+    "clean_test": "rimraf ./build_spec",
+    "prepublish": "npm-run-all typings build",
+    "lint_spec": "tslint -c tslint.json ./spec/**/*.ts",
+    "lint_src": "tslint -c tslint.json ./src/**/*.ts",
+    "lint": "npm-run-all lint_src lint_spec",
+    "test_jasmine": "jasmine",
+    "test": "npm-run-all build_test clean_test clean_build",
+    "typings": "typings install",
+    "watch": "watch \"echo BUILDING... && npm run build_test && echo BUILD COMPLETED!\" src spec -d -u -w=15"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "rxjs",
+    "redux",
+    "store"
+  ],
+  "author": {
+    "name": "PTW Freiburg GmbH",
+    "url": "www.ptw.de",
+    "email": "info@ptw.de"
+  },
+  "contributors": [
+    {
+      "name": "Sebastian Sebald",
+      "email": "sebastian.sebald@gmail.de"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "npm-run-all": "^1.7.0",
+    "rimraf": "^2.5.2",
+    "rxjs": "5.0.0-beta.6",
+    "tslint": "^3.6.0",
+    "typescript": "^1.8.9",
+    "typings": "^0.8.1",
+    "watch": "^0.17.1"
+  },
+  "peerDependencies": {
+    "rxjs": "5.0.0-beta.6"
+  }
+}

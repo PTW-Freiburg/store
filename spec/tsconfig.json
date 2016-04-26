@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "removeComments": false,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "../build_spec",
+        "declaration": true
+    },
+    "files": [
+        "../typings/main.d.ts",
+        "../node_modules/typescript/lib/lib.es6.d.ts",
+        "action.spec.ts",
+        "combineReducers.spec.ts",
+        "compose.spec.ts",
+        "applyMiddleware.spec.ts",
+        "createStore.spec.ts",
+        "bindActionCreators.spec.ts"
+    ]
+}
