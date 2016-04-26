@@ -1,7 +1,7 @@
 {
   "name": "ptw-store",
-  "version": "1.0.2",
-  "description": "Redux-like store implementation with streams (RxJS)",
+  "version": "1.0.3",
+  "description": "A RxJS powered state management container heavily inspired by Redux.",
   "main": "./build/index.js",
   "scripts": {
     "build": "tsc",
