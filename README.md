@@ -2,6 +2,9 @@
 
 A [RxJS](https://github.com/ReactiveX/rxjs) powered state management container heavily inspired by [Redux](https://github.com/reactjs/redux).
 
+[![Build Status](https://travis-ci.org/PTW-Freiburg/store.svg?branch=master)](https://travis-ci.org/PTW-Freiburg/store) [![npm version](https://badge.fury.io/js/ptw-store.svg)](https://badge.fury.io/js/ptw-store)
+
+
 ## Why!?
 
 Because reactive by default is a good thing and Redux is too much tied to React!

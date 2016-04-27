@@ -1,6 +1,6 @@
 {
   "name": "ptw-store",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A RxJS powered state management container heavily inspired by Redux.",
   "main": "./build/index.js",
   "scripts": {
