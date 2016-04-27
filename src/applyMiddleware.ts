@@ -1,5 +1,5 @@
 import { Store, Dispatcher } from './createStore';
-import { Reducer } from './Reducer';
+import { Reducer } from './reducer';
 import { Action } from './action';
 import { compose, FunctionComposition } from './compose';
 
